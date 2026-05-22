@@ -1,0 +1,193 @@
+/* =========================================
+   CURIOSITYDANUBES STYLESHEET
+   ========================================= */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #8aa6c1 url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    color: #222;
+    font-size: 14px;
+}
+
+/* Main Wrapper */
+#wrapper {
+    width: 960px;
+    margin: 20px auto;
+    background: #dfe8f2;
+    border: 3px solid #315d8a;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+
+/* Header */
+#header {
+    background: linear-gradient(to bottom, #4f8ecb, #29557f);
+    color: white;
+    padding: 20px;
+    border-bottom: 4px solid #1e3d5b;
+    text-shadow: 1px 1px 2px black;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+#header p {
+    margin-top: 5px;
+    color: #d9e9ff;
+}
+
+/* Navigation */
+#nav {
+    background: #18344f;
+    border-top: 1px solid #6fa8dc;
+    border-bottom: 1px solid #0c1d2d;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav a {
+    display: block;
+    padding: 12px 18px;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid #40698f;
+    font-weight: bold;
+}
+
+#nav a:hover {
+    background: #4d7fad;
+    color: #ffffcc;
+}
+
+/* Content Layout */
+#content {
+    display: flex;
+    background: #f4f7fb;
+}
+
+/* Sidebar */
+#sidebar {
+    width: 240px;
+    background: #c9d7e6;
+    border-right: 2px solid #91a9c2;
+    padding: 15px;
+}
+
+.sidebar-box {
+    background: #eef4fa;
+    border: 1px solid #8aa6c1;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.sidebar-box h3 {
+    margin-top: 0;
+    background: #5f89b2;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+/* Main Area */
+#main {
+    flex: 1;
+    padding: 20px;
+}
+
+.post {
+    background: white;
+    border: 1px solid #a4b9cf;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.post h2 {
+    margin-top: 0;
+    color: #2a4c6f;
+}
+
+.post-info {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background: linear-gradient(to bottom, #79a8d8, #4472a3);
+    color: white;
+    padding: 8px 14px;
+    border: 1px solid #24496d;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom, #90bbe8, #5c87b8);
+}
+
+/* Footer */
+#footer {
+    background: #1d3a57;
+    color: #d0e2f5;
+    text-align: center;
+    padding: 12px;
+    border-top: 3px solid #456f98;
+    font-size: 12px;
+}
+
+/* Old-school tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+table th {
+    background: #4e7ba7;
+    color: white;
+    padding: 8px;
+    border: 1px solid #2e4d6c;
+}
+
+table td {
+    border: 1px solid #b7c7d8;
+    padding: 8px;
+}
+
+/* Old-school link styling */
+a {
+    color: #003399;
+}
+
+a:hover {
+    color: #cc0000;
+}
+
+/* Tiny badge */
+.badge {
+    background: yellow;
+    color: black;
+    font-size: 11px;
+    padding: 2px 5px;
+    border: 1px solid #999;
+    font-weight: bold;
+}
