@@ -5,8 +5,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: #8aa6c1 url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-    font-family: Tahoma, Verdana, Arial, sans-serif;
+    background: #8aa6c1;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
     color: #222;
     font-size: 14px;
 }
