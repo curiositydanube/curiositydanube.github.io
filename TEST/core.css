@@ -42,7 +42,7 @@ body {
 
 /* Navigation */
 #nav {
-    background: #18344f;
+    background: #FFC1CC;
     border-top: 1px solid #6fa8dc;
     border-bottom: 1px solid #0c1d2d;
 }
@@ -81,13 +81,13 @@ body {
 /* Sidebar */
 #sidebar {
     width: 240px;
-    background: #c9d7e6;
+    background: #f4f7fb;
     border-right: 2px solid #91a9c2;
     padding: 15px;
 }
 
 .sidebar-box {
-    background: #eef4fa;
+    background: #FFB6C1;
     border: 1px solid #8aa6c1;
     margin-bottom: 15px;
     padding: 10px;
